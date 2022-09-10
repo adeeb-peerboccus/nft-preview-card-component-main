@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.viewport {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__background {
+  background-color: hsl(216, 50%, 16%);
+  width: 350px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.main__image_box {
+  width: 90%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main__image {
+  width: 100%;
+  border-radius: 10px;
+  z-index: 999;
+}
+
+.main__image:hover {
+  opacity: 30%;
+  cursor: pointer;
+}
+
+.image__hover_box {
+  position: absolute;
+  z-index: 1;
+  background-color: hsl(178, 100%, 50%);
+  width: 315px;
+  height: 315px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 90%;
+}
+
+.title {
+  color: aliceblue;
+  font-family: "Outfit", sans-serif;
+  padding-bottom: 20px;
+}
+
+.title:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.description {
+  color: hsl(215, 51%, 70%);
+  padding-bottom: 25px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+}
+
+.num__icons {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 25px;
+}
+
+.etherium {
+  display: flex;
+  gap: 10px;
+}
+
+.et__amount {
+  color: hsl(178, 100%, 50%);
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+}
+
+.time {
+  display: flex;
+  gap: 10px;
+}
+
+.time__left {
+  color: hsl(215, 51%, 70%);
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+}
+
+.line {
+  color: hsl(215, 51%, 70%);
+}
+
+.creator {
+  display: flex;
+  align-items: center;
+}
+
+.avatar__img {
+  width: 40px;
+  border: 1px;
+  border-radius: 50%;
+  border-color: aliceblue;
+  border-style: solid;
+  margin: 20 20 20 0;
+}
+
+.creation {
+  color: hsl(215, 51%, 70%);
+}
+
+.name {
+  color: aliceblue;
+}
+
+.name:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
